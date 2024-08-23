@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\wwwroot\\img\\examen.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:wwwroot\\img\\examen.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\wwwroot\\img\\oip.jfif||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:wwwroot\\img\\oip.jfif||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\wwwroot\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:wwwroot\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\pages\\addexamen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\pages\\addexamen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\pages\\adddoctor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\pages\\adddoctor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\pages\\addpaciente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\pages\\addpaciente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\pages\\editdoctor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\pages\\editdoctor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\pages\\doctorlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\pages\\doctorlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\pages\\edtipaciente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\pages\\edtipaciente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\pages\\pacientelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\pages\\pacientelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|c:\\users\\usuario\\desktop\\materias\\progra 4\\proyectofinal\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B8AB448C-D4DB-4634-B898-530B431A55FB}|ProyectoFinal.csproj|solutionrelative:components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "examen.png",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\img\\examen.png",
+              "RelativeDocumentMoniker": "wwwroot\\img\\examen.png",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\img\\examen.png",
+              "RelativeToolTip": "wwwroot\\img\\examen.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-23T01:25:05.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "oip.jfif",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\img\\oip.jfif",
+              "RelativeDocumentMoniker": "wwwroot\\img\\oip.jfif",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\img\\oip.jfif",
+              "RelativeToolTip": "wwwroot\\img\\oip.jfif",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHTSURBVDhP5ZTNaxNBGIefyX6kadNtlrQSQ2IbbU0VSg9FsYr\u002BCYIXL7npv\u002BPZkx\u002BgBI89CFbxIgjqTUXUUils2lKb2pS0CSttPtbdnQ1mDiJoDoIP/PadHeZ9\u002Be07O8NA8TwvGv3DiOBRLpcHYrVUKoX1woJ/S8\u002BUHlaMuHnvz4zevSGNBcSiGJJKShWzUr3336kfpWB\u002BHM7PwIV5ESoYn83J\u002BTE/8VfqRyl4atxhSKsw7Dci0Om8YH5GcGXOL34SFgpweVZw/aLg2jkZLxV/fm6A0sPHT\u002B\u002BH0RpNYSVtpqdmWZhbDOcKGTXRNGTMpWXsoTjc2l5jbfM9q\u002BvvWHHe8uL1Mi/fLNNy69Du0GweYnhdRjQU9aM4dD5V0eOCxpBLwt7FiJtUvn5m6fkD7PQk5vAEiUSa5EiW6ewUi8VJMql4lC1RHJr\u002Bwph\u002BnHY7Q3M3jXmURbg24rtFo9r0tYe7s85h7QOrX57x8Mkdbj26HWVLFId24Sox4fnHx0MPNiauc\u002BZE2t9Jk9yERf6YRavTCe8AezRBy2/DUbcbZUsUhz2E339D0zB0ja1aA6e6z8pGjVcfN3C263zbd6ns1NmsHbB34EZZfQzy6IX/wsAvh/8J\u002BAEJXA4ZQrVaDAAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-08-23T01:24:37.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "favicon.png",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\favicon.png",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.png",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\favicon.png",
+              "RelativeToolTip": "wwwroot\\favicon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-23T01:24:26.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddExamen.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\AddExamen.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\AddExamen.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\AddExamen.razor",
+              "RelativeToolTip": "Components\\Pages\\AddExamen.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T06:12:31.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T01:28:56.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Models\\Paciente.cs",
+              "RelativeDocumentMoniker": "Models\\Paciente.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Models\\Paciente.cs",
+              "RelativeToolTip": "Models\\Paciente.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAzwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T00:20:38.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddDoctor.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\AddDoctor.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\AddDoctor.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\AddDoctor.razor",
+              "RelativeToolTip": "Components\\Pages\\AddDoctor.razor",
+              "ViewState": "AQIAACEAAAAAAAAAACBjwA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T01:00:25.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddPaciente.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\AddPaciente.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\AddPaciente.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\AddPaciente.razor",
+              "RelativeToolTip": "Components\\Pages\\AddPaciente.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBpwCMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T00:11:47.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditDoctor.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\EditDoctor.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\EditDoctor.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\EditDoctor.razor",
+              "RelativeToolTip": "Components\\Pages\\EditDoctor.razor",
+              "ViewState": "AQIAABgAAAAAAAAAAIBpwC0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T01:02:32.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Models\\Doctor.cs",
+              "RelativeToolTip": "Models\\Doctor.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T00:58:20.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwCUAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T00:35:54.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DoctorList.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\DoctorList.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\DoctorList.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\DoctorList.razor",
+              "RelativeToolTip": "Components\\Pages\\DoctorList.razor",
+              "ViewState": "AQIAAEsAAAAAAAAAAIBpwCoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T01:11:18.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EdtiPaciente.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\EdtiPaciente.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\EdtiPaciente.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\EdtiPaciente.razor",
+              "RelativeToolTip": "Components\\Pages\\EdtiPaciente.razor",
+              "ViewState": "AQIAACQAAAAAAAAAAIBpwDkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T00:16:38.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PacienteList.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\PacienteList.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\PacienteList.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Pages\\PacienteList.razor",
+              "RelativeToolTip": "Components\\Pages\\PacienteList.razor",
+              "ViewState": "AQIAAFEAAAAAAAAAAIBpwEEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T01:10:59.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T00:35:56.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PacienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Services\\PacienteService.cs",
+              "RelativeDocumentMoniker": "Services\\PacienteService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Services\\PacienteService.cs",
+              "RelativeToolTip": "Services\\PacienteService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAADwvy8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T00:22:41.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "Services\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Services\\DoctorService.cs",
+              "RelativeToolTip": "Services\\DoctorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T00:59:10.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAwwBcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T00:28:23.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AQIAADMAAAAAAAAAAIBpwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-06T00:41:10.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\Routes.razor",
+              "RelativeToolTip": "Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T00:41:32.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T00:41:27.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T00:38:56.317Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

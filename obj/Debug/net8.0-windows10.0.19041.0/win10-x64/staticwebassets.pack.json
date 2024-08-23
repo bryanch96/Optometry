@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\ProyectoFinal.styles.css",
+      "PackagePath": "staticwebassets\\ProyectoFinal.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\img\\Doctor.png",
+      "PackagePath": "staticwebassets\\img\\Doctor.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\img\\Paciente.png",
+      "PackagePath": "staticwebassets\\img\\Paciente.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\img\\examen.png",
+      "PackagePath": "staticwebassets\\img\\examen.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\img\\oip.jfif",
+      "PackagePath": "staticwebassets\\img\\oip.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\materias\\progra 4\\ProyectoFinal\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.ProyectoFinal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.ProyectoFinal.props",
+      "PackagePath": "build\\ProyectoFinal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.ProyectoFinal.props",
+      "PackagePath": "buildMultiTargeting\\ProyectoFinal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.ProyectoFinal.props",
+      "PackagePath": "buildTransitive\\ProyectoFinal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

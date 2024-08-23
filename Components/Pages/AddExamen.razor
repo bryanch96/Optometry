@@ -1,0 +1,91 @@
+﻿@page "/add-examen"
+@using ProyectoFinal.Models
+@using ProyectoFinal.Services
+@inject PacienteService PacienteService
+@inject NavigationManager Navigation
+
+<h3>Registrar Examen</h3>
+
+<div style="margin-bottom: 15px;">
+    <label for="cedula" style="display: block; margin-bottom: 5px;">Cédula del Paciente:</label>
+    <InputText id="cedula" @bind-Value="cedulaPaciente" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+    <button @onclick="BuscarPaciente" class="button-like">Buscar</button>
+</div>
+
+@if (paciente != null)
+{
+    <div>
+        <h4>Información del Paciente</h4>
+        <p>Nombre: @paciente.nombre</p>
+        <p>Apellido 1: @paciente.apellido1</p>
+        <p>Apellido 2: @paciente.apellido2</p>
+
+        <h4>Examen de Agudeza Visual</h4>
+        <select @bind="paciente.ResultadoAgudezaVisual" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;">
+            <option value="">Seleccione un resultado</option>
+            <option value="20/20 o 6/6">Visión 20/20 o 6/6</option>
+            <option value="Menor de 20/20">Visión menor de 20/20</option>
+            <option value="Mayor de 20/20">Visión mayor de 20/20</option>
+        </select>
+
+        <h4>Examen de Refracción</h4>
+        <select @bind="paciente.ResultadoRefraccion" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;">
+            <option value="">Seleccione un resultado</option>
+            <option value="Miopía">Miopía</option>
+            <option value="Hipermetropía">Hipermetropía</option>
+            <option value="Astigmatismo">Astigmatismo</option>
+            <option value="Presbicia">Presbicia</option>
+        </select>
+
+        <h4>Examen de Salud Ocular</h4>
+        <select @bind="paciente.ResultadoSaludOcular" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;">
+            <option value="">Seleccione un resultado</option>
+            <option value="Normal">Condiciones oculares normales</option>
+            <option value="Problemas Oculares">Presencia de problemas oculares</option>
+        </select>
+
+        <button @onclick="GuardarExamen" class="button-like">Guardar</button>
+    </div>
+}
+else if (pacienteNoEncontrado)
+{
+    <p>No se encontró un paciente con la cédula "@cedulaPaciente".</p>
+}
+
+@code {
+    private string cedulaPaciente;
+    private Paciente paciente;
+    private bool pacienteNoEncontrado = false;
+
+    private void BuscarPaciente()
+    {
+        paciente = PacienteService.GetPacienteByCedula(cedulaPaciente);
+        pacienteNoEncontrado = paciente == null;
+    }
+
+    private void GuardarExamen()
+    {
+        if (paciente != null)
+        {
+            PacienteService.UpdatePaciente(paciente);
+            Navigation.NavigateTo("/pacientes");
+        }
+    }
+}
+
+<style>
+    .button-like {
+        padding: 10px 15px;
+        font-size: 16px;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+        .button-like:hover {
+            background-color: #0056b3;
+        }
+</style>

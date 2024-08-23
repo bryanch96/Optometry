@@ -1,0 +1,58 @@
+﻿@page "/edit-doctor/{id:int}"
+@using ProyectoFinal.Models
+@using ProyectoFinal.Services
+@inject DoctorService DoctorService
+@inject NavigationManager Navigation
+
+<h3>Editar Doctor</h3>
+
+@if (doctor != null)
+{
+    <EditForm Model="@doctor" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div style="margin-bottom: 15px;">
+            <label for="cedula" style="display: block; margin-bottom: 5px;">Cedula:</label>
+            <InputText id="cedula" @bind-Value="doctor.Cedula" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="nombre" style="display: block; margin-bottom: 5px;">Nombre:</label>
+            <InputText id="nombre" @bind-Value="doctor.Nombre" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="apellido1" style="display: block; margin-bottom: 5px;">Apellido 1:</label>
+            <InputText id="apellido1" @bind-Value="doctor.Apellido1" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="apellido2" style="display: block; margin-bottom: 5px;">Apellido 2:</label>
+            <InputText id="apellido2" @bind-Value="doctor.Apellido2" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="especialidad" style="display: block; margin-bottom: 5px;">Especialidad:</label>
+            <InputText id="especialidad" @bind-Value="doctor.Especialidad" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </div>
+
+        <button type="submit">Guardar</button>
+    </EditForm>
+}
+else
+{
+    <p>Cargando...</p>
+}
+
+@code {
+    [Parameter] public int id { get; set; }
+    private Doctor doctor;
+
+    protected override void OnInitialized()
+    {
+        doctor = DoctorService.GetDoctor(id);
+    }
+
+    private void HandleValidSubmit()
+    {
+        DoctorService.UpdateDoctor(doctor);
+        Navigation.NavigateTo("/doctores");
+    }
+}

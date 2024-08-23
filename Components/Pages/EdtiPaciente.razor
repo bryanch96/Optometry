@@ -1,0 +1,60 @@
+﻿@page "/edit-paciente/{id:int}"
+@using ProyectoFinal.Models
+@using ProyectoFinal.Services
+@inject PacienteService PacienteService
+@inject NavigationManager Navigation
+
+
+<h3>Editar Paciente</h3>
+
+@if (paciente != null)
+{
+    <EditForm Model="@paciente" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div style="margin-bottom: 15px;">
+            <label for="cedula" style="display: block; margin-bottom: 5px;">Cedula:</label>
+            <InputText id="cedula" @bind-Value="paciente.cedula" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="nombre" style="display: block; margin-bottom: 5px;">Nombre:</label>
+            <InputText id="nombre" @bind-Value="paciente.nombre" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="apellido1" style="display: block; margin-bottom: 5px;">Apellido 1:</label>
+            <InputText id="apellido1" @bind-Value="paciente.apellido1" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="apellido2" style="display: block; margin-bottom: 5px;">Apellido 2:</label>
+            <InputText id="apellido2" @bind-Value="paciente.apellido2" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </div>
+
+       
+
+
+
+
+        <button type="submit">Guardar</button>
+    </EditForm>
+}
+else
+{
+    <p>Cargando...</p>
+}
+
+@code {
+    [Parameter] public int id { get; set; }
+    private Paciente paciente;
+
+    protected override void OnInitialized()
+    {
+        paciente = PacienteService.GetPaciente(id);
+    }
+
+    private void HandleValidSubmit()
+    {
+        PacienteService.UpdatePaciente(paciente);
+        Navigation.NavigateTo("/pacientes");
+    }
+}

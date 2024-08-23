@@ -1,0 +1,106 @@
+﻿@page "/doctores"
+@inject DoctorService DoctorService
+@using ProyectoFinal.Models
+@using ProyectoFinal.Services
+
+<h3>Lista de Doctores</h3>
+
+<div style="margin-bottom: 10px;">
+    <label for="buscarCedula">Buscar por Cedula:</label>
+    <input id="buscarCedula" type="text" @bind="cedulaBuscar" />
+    <button @onclick="BuscarDoctor" class="button-like">Buscar</button>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Cedula</th>
+            <th>Nombre</th>
+            <th>Apellido 1</th>
+            <th>Apellido 2</th>
+            <th>Especialidad</th>
+          
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var doctor in doctoresFiltrados)
+        {
+            <tr>
+                <td>@doctor.Cedula</td>
+                <td>@doctor.Nombre</td>
+                <td>@doctor.Apellido1</td>
+                <td>@doctor.Apellido2</td>
+                <td>@doctor.Especialidad</td>
+                <td>
+                    <a href="/edit-doctor/@doctor.Id" class="button-like">Editar</a>
+                    <button @onclick="() => DeleteDoctor(doctor.Id)" class="button-like">Borrar</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (doctoresFiltrados != null && !doctoresFiltrados.Any())
+{
+    <p>No se encontraron Doctores con la Cédula "@cedulaBuscar".</p>
+}
+
+@code {
+    private List<Doctor> doctores;
+    private List<Doctor> doctoresFiltrados;
+    private string cedulaBuscar;
+
+    protected override void OnInitialized()
+    {
+        doctores = DoctorService.GetDoctores();
+        doctoresFiltrados = new List<Doctor>(doctores);
+    }
+
+    private void DeleteDoctor(int id)
+    {
+        DoctorService.DeleteDoctor(id);
+        ActualizarLista();
+    }
+
+    private void BuscarDoctor()
+    {
+        if (!string.IsNullOrWhiteSpace(cedulaBuscar))
+        {
+            doctoresFiltrados = doctores.Where(d => d.Cedula.Equals(cedulaBuscar, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+        else
+        {
+            doctoresFiltrados = new List<Doctor>(doctores);
+        }
+    }
+
+    private void ActualizarLista()
+    {
+        doctores = DoctorService.GetDoctores();
+        BuscarDoctor(); // Actualizar la lista filtrada después de eliminar
+    }
+}
+
+<style>
+    .button-like {
+        padding: 10px 15px;
+        font-size: 16px;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 10px; /* Ajusta el margen entre los elementos */
+    }
+
+        .button-like:hover {
+            background-color: #0056b3;
+        }
+
+        .button-like:focus {
+            outline: none;
+        }
+</style>
